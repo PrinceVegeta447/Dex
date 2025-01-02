@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 
 # Load environment variables
 load_dotenv()
-BOT_TOKEN = os.getenv("7981498089:AAGAORd5DKZ5VWAnbBsf-VMLAnnLdYTlfgQ")
+BOT_TOKEN ="7981498089:AAGAORd5DKZ5VWAnbBsf-VMLAnnLdYTlfgQ"
 POKEAPI_BASE_URL = "https://pokeapi.co/api/v2/"
 
 # Helper function to fetch data from PokéAPI
